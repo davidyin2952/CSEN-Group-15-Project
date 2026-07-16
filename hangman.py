@@ -1,7 +1,7 @@
 import random
 
 def choose_word():
-    words = ["python", "hangman", "programming", "computer", "keyboard"]
+    words = ["python", "hangman", "programming", "computer", "keyboard", "water", "apple", "banana", "notebook", "phone"]
     return random.choice(words)
 
 def play_game():
@@ -9,7 +9,7 @@ def play_game():
     guessed_letters = []
     attempts_left = 6
 
-    print("Welcome to Hangman!")
+    print("Hangman")
 
     while attempts_left > 0:
         current_display = ""
